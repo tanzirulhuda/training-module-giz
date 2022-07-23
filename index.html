@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Module</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+
+<body>
+    <header style="background-color: #00A3FF;" class="p-5 flex justify-between items-center px-3 md:px-8">
+        <div class="logo mr-16 hidden md:block">
+            <!-- <img src="" alt=""> -->
+            <a href="./index.html">
+                <h2 class="text-3xl font-bold text-white">Logo</h2>
+            </a>
+        </div>
+        <div class="search mr-1 md:mr-0">
+            <div class="search__comtainer">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="I'm looking for...">
+            </div>
+        </div>
+        <div class="right__menu flex justify-between items-center">
+            <div class="language flex justify-center items-center mr-6">
+                <p class="font-bold pr-2">EN</p> <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="user">
+                <i class="fa-solid fa-circle-user text-4xl"></i>
+            </div>
+        </div>
+    </header>
+    <main class="container mt-5 mx-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <a href="./pages/project-summery.html">
+                <div class="content__container" style="background-color: #3AB4F2;">
+                    <p class="text-xl font-bold text-center">Project Summary</p>
+                </div>
+            </a>
+            <a href="./pages/organization-profile.html">
+                <div class="content__container" style="background-color: #47B5FF;">
+                    <p class="text-xl font-bold text-center">Organization profile</p>
+                </div>
+            </a>
+            <a href="./pages/schedule-session-plan.html">
+                <div class="content__container" style="background-color: #9BA3EB;">
+                    <p class="text-xl font-bold text-center">Schedule/ Session plan</p>
+                </div>
+            </a>
+            <a href="./pages/module.html">
+                <div class="content__container" style="background-color: #FF6B6B;">
+                    <p class="text-xl font-bold text-center">Module</p>
+                </div>
+            </a>
+            <a href="./pages/content-for-trainers.html">
+                <div class="content__container" style="background-color: #F66B0E;">
+                    <p class="text-xl font-bold text-center">Content for trainers</p>
+                </div>
+            </a>
+            <a href="./pages/faq.html">
+                <div class="content__container" style="background-color: #E15FED;">
+                    <p class="text-xl font-bold text-center">FAQ</p>
+                </div>
+            </a>
+        </div>
+        <a href="./pages/event-create.html">
+            <div class="grid grid-cols-1 mt-3 event__create">
+                <p class="text-xl font-bold text-center">Create an event</p>
+            </div>
+        </a>
+    </main>
+    <footer class="mx-4">
+        <div class="footer__container">
+            Footer Content
+        </div>
+    </footer>
+</body>
+
+</html>

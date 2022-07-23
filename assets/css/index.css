@@ -1,0 +1,9 @@
+.content__container {
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.event__create{
+    padding: 18px;
+    background-color: #DFF6FF;
+}
